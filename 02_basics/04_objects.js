@@ -40,8 +40,27 @@ const users = [
 
 // console.log(tinderUser);
 
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
 
-console.log(tinderUser.hasOwnProperty("isLoggedIn"));
+// console.log(tinderUser.hasOwnProperty("isLoggedIn"));
+
+const course = {
+  coursename: "js in depth",
+  price: "$99",
+  courseInstructor: "Hitesh",
+};
+
+// course.courseInstructor
+const { courseInstructor: instructor } = course;
+
+console.log(instructor);
+
+// {
+//     "name": 'Sowmik',
+//     "coursename": 'js in depth',
+//     "price": 'free'
+// }
+
+[{}, {}, {}];
