@@ -1,6 +1,6 @@
 # Project 1
 
-'''javascript
+```javascript
 const buttons = document.querySelectorAll('.button');
 const body = document.querySelector('body');
 
@@ -17,11 +17,11 @@ body.style.backgroundColor = e.target.id;
 
 });
 });
-'''
+```
 
 # Project 2
 
-'''javascript
+```javascript
 const form = document.querySelector('form');
 // this usecase will give you empty
 // const height = parseInt(document.querySelector('#height').value)
@@ -43,24 +43,24 @@ const bmi = (weight / ((height \* height) / 10000)).toFixed(2);
 results.innerHTML = `<span>${bmi}</span>`;
 }
 });
-'''
+```
 
 # Project 3
 
-'''javascript
-const clock = document.getElementById('clock');
+```javascript
+const clock = document.getElementById("clock");
 // const clock = document.querySelector('#clock')
 
 setInterval(function () {
-let date = new Date();
-// console.log(date.toLocaleTimeString());
-clock.innerHTML = date.toLocaleTimeString();
+  let date = new Date();
+  // console.log(date.toLocaleTimeString());
+  clock.innerHTML = date.toLocaleTimeString();
 }, 1000);
-'''
+```
 
 # Project 4
 
-'''javascript
+```javascript
 
 let randomNumber = parseInt(Math.random() \* 100 + 1);
 
@@ -154,4 +154,4 @@ startOver.removeChild(p);
 
 });
 }
-'''
+```
