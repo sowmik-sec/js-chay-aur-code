@@ -20,6 +20,27 @@ Array.prototype.heySowmik = function () {
 };
 
 // heroPower.sowmik();
-myHeros.sowmik();
-myHeros.heySowmik();
+// myHeros.sowmik();
+// myHeros.heySowmik();
 // heroPower.heySowmik();
+
+const User = {
+  name: "Ahsan",
+  email: "ah@san.com",
+};
+
+const Teacher = {
+  makeVideo: true,
+};
+
+const TeachingSupport = {
+  isAvailable: false,
+};
+
+const TASupport = {
+  makeAssignment: "JS assignment",
+  fullTime: true,
+  __proto__: TeachingSupport,
+};
+
+Teacher.__proto__ = User;
